@@ -59,16 +59,23 @@
 							<article class="post featured">
 								<header class="major">
 									
-									<h2><a href="https://github.com/Kamuthuj/food-prices-kenya/blob/master/analysis.ipynb">Food prices in Kenya.<br />
+									<h2><a href="https://github.com/Kamuthuj/Dynamic-pricing">DYNAMIC PRICING STRATEGY.<br />
 									</a></h2>
-									<p>This project aimed to analyze the evolution of commonly consumed food products in Kenya over time. 
-										Employing Excel for data cleaning, the focus was on identifying prevalent commodities among local citizens. 
-										Subsequently, Tableau was utilized to gain insights into the changing prices of these commodities. The combined use of Excel and Tableau facilitated a comprehensive examination of trends, 
-										providing valuable perspectives on shifts in the consumption patterns of Kenyan citizens.</p>
+									<p>In this dynamic pricing strategy, I aimed to maximize revenue and profitability at the right level that balances supply and demand dynamics.
+										Using the dataset I obtained from Kaggle, I loaded it and performed data cleaning and several ETL processess. I was keen in observing features that would affect pricing and 
+										created a correlation matrix to observe the strength of different features. Features that had strong 
+										correlation inclueded ride duration, historical cost of ride, and also the number of riders and drivers.
+										I later implemented the dynamic pricing, to adjust ride cost dynamically based on demand and supply levels.This would capture high demand periods and 
+										low supply scenarios to increase prices, while low demand periods and high supply situations will lead to price reductions.I calculated the adjusted ride cost for dynamic pricing 
+										where I multiplied the historical cost of the ride by the maximum of the demand multiplier and a lower threshold,and also by the maximum of the supply multiplier and an upper threshold.This multiplication ensured that the adjusted ride cost captures the combined effect of demand and supply multipliers, 
+										with the thresholds serving as caps or floors to control the price adjustments.
+
+
+									</p>
 								</header>
-								<a href="https://github.com/Kamuthuj/food-prices-kenya/tree/master" class="image main"><img src="images/food..jpg" alt="" /></a>
+								<a href="https://github.com/Kamuthuj/Dynamic-pricing" class="image main"><img src="images/Pricing-strategies.png" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="https://public.tableau.com/app/profile/jeff.kamuthu/viz/FoodpricesinKenya/Dashboard1?publish=yes" class="button large">View visualization. </a></li>
+									<li><a href="https://github.com/Kamuthuj/Dynamic-pricing/tree/master/Visualizations" class="button large">View visualization. </a></li>
 								</ul>
 							</article>
 
