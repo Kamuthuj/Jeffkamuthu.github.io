@@ -22,8 +22,9 @@
 						<h1>JEFF KAMUTHU'S PORTFOLIO.<br />
 						</h1>
 						<p>I am a data story-teller armed with a robust skill-set in data wrangling, transformation and extraction of business insights. 
-						    I possess skills in Excel, SQL, Power Bi, Tableau, Streamlit, Python and statistics. I have done various projects including web-scrapping a YouTube API for data insights, 
-							and also done one to assess price changes of key food commodities in Kenya. My hands-on experience as a topnotch data-entry officer and sales operations lead, have fine-tuned my practical skills. Having a Bachelors degree in Economics, 
+						    I possess skills in Excel, SQL, Power Bi, Tableau, Streamlit, Python and statistics. 
+							I have done various projects such as dynamic pricing strategy to maximize on profits by a taxi hailing company, 
+							and also such as creating a regression machine learning model to predict insurance premiums paid by individuals based on pre-existing health conditions. My hands-on experience as a topnotch data-entry officer and sales operations lead, have fine-tuned my practical skills. Having a Bachelors degree in Economics, 
 						    I am eager to channel my analytical prowess into making impactful and data-driven decisions. <br>
 
 						 
@@ -84,16 +85,15 @@
 								<article>
 									<header>
 										
-										<h2><a href="https://github.com/Kamuthuj/Youtube-webscrapping/tree/master"> Webscrapping a Youtube API.<br />
+										<h2><a href="https://github.com/Kamuthuj/Apple-stock-time-series-analysis/tree/master"> Time series analysis for Apple stock.<br />
 										</a></h2>
 									</header>
-									<a href="https://github.com/Kamuthuj/Youtube-webscrapping/tree/master" class="image fit"><img src="images/webscrap.png" alt="" /></a>
-									<p>In this project where I was scraping data using a You Tube data API, from some of most common you tubers creating content on Data Analysis and Machine Learning. I created a YouTube API key which I 
-										used as my credential to access the data. I used different sections of the documentation to access different data to build the project such as channel name, subscribers, total views and also videos posted per channel. 
-										I loaded it to a Pandas data frame to do analysis. From the analysis I was able to see different videos from
-										 different you tubers which would play a key part in assisting newbies on whose videos would help them understand concepts better. Visualization was done using Plotly.</p>
+									<a href="https://github.com/Kamuthuj/Apple-stock-time-series-analysis/tree/master" class="image fit"><img src="images/Apple-Failed-Products-StartupTalky.jpg" alt="" /></a>
+									<p>I installed yfinance to access the yahoo finance API to access real time stock prices of Apple. 
+										I used the datetime and timedelta to specify the start date and end date of the stock prices. From this i downloaded the data which had no null values and all the data types were of the right data types. I utilized plotly to plot the time series by using the candlesticks for data visualization,and also see the patterns of the closing trend which showed that the stock value gained over time. I created a streamlit app to see the same and created a date filter to enable a user filter the dates to their need. 
+										The time series was further analyzed into 1 month, 6 months and the year to date. I created a streamlit web app to monitor stock performance using the date filter to observe stock performance.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/Kamuthuj/Youtube-webscrapping/tree/master/image%20files" class="button">View visualization.</a></li>
+										<li><a href="https://apple-stock-time-series-analysis-v6cqczucnrifqgm5xfglv2.streamlit.app/" class="button">View streamlit app.</a></li>
 									</ul>
 								</article>
 								<article>
@@ -133,18 +133,18 @@
 								<article>
 									<header>
 										
-										<h2><a href="https://github.com/Kamuthuj/wallmart-insights/tree/master">Walmart store analysis using SQL. <br />
+										<h2><a href="https://github.com/Kamuthuj/RFM-analysis/tree/master">RFM analysis using SQL. <br />
 										</a></h2>
 									</header>
-									<a href="https://github.com/Kamuthuj/wallmart-insights/tree/master" class="image fit"><img src="images/people-change-grocery-stores-CONTENT-2020.jpg" alt="" /></a>
+									<a href="https://github.com/Kamuthuj/RFM-analysis/tree/master" class="image fit"><img src="images/rfm-analysis-101.jpg" alt="" /></a>
 									<p>
-										In this project, I used a Kaggle dataset to assess the operational efficiency of various Walmart stores. First,
-										 I established a comprehensive database and seamlessly integrated the sales data into it. Employing feature engineering techniques, 
-										 I unearthed valuable insights embedded within the dataset. Utilizing the power of SQL queries, I extracted meaningful information to gain a profound understanding of the performance dynamics. To enhance the communicative aspect, 
-										I harnessed the capabilities of Tableau, crafting visually compelling representations that effectively conveyed diverse insights gleaned from the analysis.
+										In this RFM model I used a simple dataset to conduct RFM analysis using SQL. I created a database for the data and created tables with different constraints to ensure data integrity. 
+										I calculated the most recent purchase by using the DATEDIFF but set my date to 2023-07-25 as the dataset was quite old.For the frequency I 
+										used the COUNT function to establish the number of times the unique customer ids made purchases. I calculated the SUM of transactions made by the unique customer ids to establish the total spending. I created a SQL view where I joined the three queries using a subquery and named my view as combinedrfmtable. I utilized the CASE statement (if,else) statements to do customer segmentation where customers with a recency score <=50 
+										classified as High, between 51 and 80 to be medium and higher than that as low. I did this for frequency and monetary value.
 										</p>
 									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/jeff.kamuthu/viz/StoreAnalysis_17018495101410/Dashboard1?publish=yes" class="button">View visualization.</a></li>
+										<li><a href="https://public.tableau.com/app/profile/jeff.kamuthu/viz/RFManalysis_/RFM_analysis_?publish=yes" class="button">View visualization.</a></li>
 									</ul>
 								</article>
 								<article class="post featured">
